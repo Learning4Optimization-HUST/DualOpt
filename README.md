@@ -3,6 +3,8 @@
 This is the implementation of our work, *DualOpt: A Dual Divide-and-Optimize Algorithm for the Large-scale Traveling
 Salesman Problem* (AAAI 2025)
 
+https://arxiv.org/abs/2501.08565
+
 ## Operating System
 
 Currently only Linux system is supported.
@@ -70,4 +72,20 @@ train a model on TSP50.
 ```
 python run.py --data_distribution scale --graph_size 50 --n_epochs 200
 ```
+## Citation
+
+If you find this work helpful, please consider cite our paper:
+
+```
+@inproceedings{zhou2025dualopt,
+    author = {Zhou, Shipei and Ding, Yuandong and Zhang, Chi and Cao, Zhiguang and Jin, Yan},
+    title = {DualOpt: A Dual Divide-and-Optimize Algorithm for the Large-scale Traveling
+ Salesman Problem},
+    booktitle = {AAAI 2025},
+    year = {2025},
+    month = {February},
+    url = {https://arxiv.org/abs/2501.08565},
+}
+```
+
 
